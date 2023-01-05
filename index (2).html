@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <div class="main">
+    <h2>Name</h2>
+    <input type="text" placeholder="enter your name" id="name"></input>
+    <h2>Phone Number</h2>
+    <input type="number" placeholder="enter number" id="number">
+    <h2>E-mail</h2>
+    <input type="email" placeholder="enter email" id="email">
+ 
+    <button type="button" onclick="add()">add</button>
+
+    <h2>Remove</h2>
+    <input type="text" id="search" placeholder="enter the id ">
+    <p id="data">
+    </p>
+    <button onclick="remove()">Remove</button>
+    <script src="task.js"></script> 
+   </div>
+   <div class="details">
+    <h1>Contacts</h1>
+    <button onclick="read()">Read</button>
+    <div id="">
+        <h3 id="show"></h3>
+        <h3 id="response"></h3>
+    </div>
+   </div>
+</body>
+
+</html>
